@@ -12,10 +12,13 @@ In this project I have implemented and analyzed the different heuristic search a
 
 To find optimal solution I have implemented the following heuristic search algorithms:
 
-A* search using the heuristic function f_((n))=g_((n))+h_((n)) where h_((n))  is the number of misplaced tiles (not counting the blank).
-A* search with the Manhattan heuristic function as〖 h〗_((n)).
-Iterative deepening A* Search with the Manhattan heuristic function as〖 h〗_((n)).
-Depth-first Branch and Bound with the Manhattan heuristic function as〖 h〗_((n)).
+	A* search using the heuristic function f_((n))=g_((n))+h_((n)) where h_((n))  is the number of misplaced tiles (not counting the blank).
+	
+	A* search with the Manhattan heuristic function as〖 h〗_((n)).
+	
+	Iterative deepening A* Search with the Manhattan heuristic function as〖 h〗_((n)).
+	
+	Depth-first Branch and Bound with the Manhattan heuristic function as〖 h〗_((n)).
 
 All of the algorithms except IDA* checking for duplicates and remove them if their cost is lower. 
 Performance of each algorithm was measured in terms of expanded nodes, number of moves to find the optimal solution and time it took to find optimal solution and finish the algorithm (in nano seconds). All of this was performed on 4 different types of configuration, from easy, through medium, hard and the worst. The initial states are as follows.
