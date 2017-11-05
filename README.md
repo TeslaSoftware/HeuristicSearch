@@ -1,12 +1,12 @@
 # Heuristic-Search
 In this project I have implemented and analyzed the different heuristic search algorithms to solve the 8-puzzle. 8-puzzle is a sliding puzzle on 3 x 3 board with one blank tile and remaining 8 tiles numbered from 1 to 8. Only empty tile can be moved different position. The objective is to place the tiles to achieve the goal configuration. In this program goal configuration is presented below:
------------
-| 1 |2 |3 |
------------
-| 8 |0 |4 |
------------
-| 7 |6 |5 |
------------
+  -----------
+  | 1 |2 |3 |
+  -----------
+  | 8 |0 |4 |
+  -----------
+  | 7 |6 |5 |
+  -----------
 To find optimal solution I have implemented the following heuristic search algorithms:
 
 A* search using the heuristic function f_((n))=g_((n))+h_((n)) where h_((n))  is the number of misplaced tiles (not counting the blank).
